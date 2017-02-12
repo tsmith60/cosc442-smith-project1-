@@ -4,3 +4,4 @@
 1486935475415	Extract interface 'IOwnable'
 1486938788860	Extract method 'calculateMonopoliesRent'
 1486939444159	Extract local variable 'colorGroup'
+1486939947390	Change method 'playAction'
