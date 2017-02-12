@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;owner&apos; in &apos;edu.towson.cis.cosc442.project1.monopoly.Cell&apos; to &apos;theOwner&apos;&#x0A;- Original project: &apos;Monopoly&apos;&#x0A;- Original element: &apos;edu.towson.cis.cosc442.project1.monopoly.Cell.owner&apos;&#x0A;- Renamed element: &apos;edu.towson.cis.cosc442.project1.monopoly.Cell.theOwner&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings&#x0A;- Rename getter method for field&#x0A;- Rename setter method for field" delegate="false" deprecate="true" description="Rename field &apos;owner&apos;" flags="589830" getter="true" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;edu.towson.cis.cosc442.project1.monopoly{Cell.java[Cell^owner" name="theOwner" references="true" setter="true" stamp="1486933708195" textual="true" version="1.0"/>
+</session>
