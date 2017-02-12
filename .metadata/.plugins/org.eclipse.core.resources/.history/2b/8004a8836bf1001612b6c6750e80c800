@@ -145,7 +145,7 @@ public class PlayerPanel extends JPanel {
         lblName.setText(player.getName());
         lblMoney.setText("$ " + player.getMoney());
         StringBuffer buf = new StringBuffer();
-        IOwnable[] cells = player.getAllProperties();
+        Cell[] cells = player.getAllProperties();
         for (int i = 0; i < cells.length; i++) {
             buf.append(cells[i] + "\n");
         }

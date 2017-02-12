@@ -55,7 +55,7 @@ public class Player {
 
 	public boolean checkProperty(String property) {
 		for(int i=0;i<properties.size();i++) {
-			IOwnable cell = (IOwnable)properties.get(i);
+			Cell cell = (Cell)properties.get(i);
 			if(cell.getName().equals(property)) {
 				return true;
 			}
@@ -82,12 +82,12 @@ public class Player {
 		properties.clear();
 	}
     
-    public IOwnable[] getAllProperties() {
+    public Cell[] getAllProperties() {
         ArrayList<Cell> list = new ArrayList<Cell>();
         list.addAll(properties);
         list.addAll(utilities);
         list.addAll(railroads);
-        return (IOwnable[])list.toArray(new Cell[list.size()]);
+        return (Cell[])list.toArray(new Cell[list.size()]);
     }
 
 	public int getMoney() {

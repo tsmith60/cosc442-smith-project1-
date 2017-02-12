@@ -71,7 +71,7 @@ public class GUITradeDialog extends JDialog implements TradeDialog {
                             "Amount should be an integer", "Error", JOptionPane.ERROR_MESSAGE);
                     return;
                 }
-                IOwnable cell = (IOwnable)cboProperties.getSelectedItem();
+                Cell cell = (Cell)cboProperties.getSelectedItem();
                 if(cell == null) return;
                 Player player = (Player)cboSellers.getSelectedItem();
                 Player currentPlayer = GameMaster.instance().getCurrentPlayer();
@@ -105,7 +105,7 @@ public class GUITradeDialog extends JDialog implements TradeDialog {
 
     private void updatePropertiesCombo(Player player) {
         cboProperties.removeAllItems();
-        IOwnable[] cells = player.getAllProperties();
+        Cell[] cells = player.getAllProperties();
         btnOK.setEnabled(cells.length > 0);
         for (int i = 0; i < cells.length; i++) {
             cboProperties.addItem(cells[i]);
