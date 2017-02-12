@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="src" project="Monopoly" tests="44" started="44" failures="0" errors="0" ignored="0">
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.PropertyCellTest" time="0.0">
+    <testcase name="testPlayerAction" classname="edu.towson.cis.cosc442.project1.monopoly.PropertyCellTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.TradeDealTest" time="0.0">
+    <testcase name="testMakeMessage" classname="edu.towson.cis.cosc442.project1.monopoly.TradeDealTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.GoToJailCardTest" time="0.0">
+    <testcase name="testJailCardUI" classname="edu.towson.cis.cosc442.project1.monopoly.GoToJailCardTest" time="0.0"/>
+    <testcase name="testJailCardLabel" classname="edu.towson.cis.cosc442.project1.monopoly.GoToJailCardTest" time="0.0"/>
+    <testcase name="testJailCardAction" classname="edu.towson.cis.cosc442.project1.monopoly.GoToJailCardTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.MovePlayerCardTest" time="0.0">
+    <testcase name="testJailCardLabel" classname="edu.towson.cis.cosc442.project1.monopoly.MovePlayerCardTest" time="0.0"/>
+    <testcase name="testMovePlayerCardUI" classname="edu.towson.cis.cosc442.project1.monopoly.MovePlayerCardTest" time="0.0"/>
+    <testcase name="testMovePlayerCardAction" classname="edu.towson.cis.cosc442.project1.monopoly.MovePlayerCardTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.GainMoneyCardTest" time="0.0">
+    <testcase name="testGainMoneyCardUI" classname="edu.towson.cis.cosc442.project1.monopoly.GainMoneyCardTest" time="0.0"/>
+    <testcase name="testGainMoneyCardAction" classname="edu.towson.cis.cosc442.project1.monopoly.GainMoneyCardTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.GameboardCreationTest" time="0.117">
+    <testcase name="testGameboardLayout" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardCreationTest" time="0.116"/>
+    <testcase name="testCellAddOrder14" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardCreationTest" time="0.001"/>
+    <testcase name="testCellAddOrder" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardCreationTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.002">
+    <testcase name="testExchangeProperty" classname="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.001"/>
+    <testcase name="testPurchaseProperty" classname="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.0"/>
+    <testcase name="testResetProperty" classname="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.0"/>
+    <testcase name="testPayRentTo" classname="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.001"/>
+    <testcase name="testPurchaseHouse" classname="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.0"/>
+    <testcase name="testSameGoCell" classname="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.CardsTest" time="0.001">
+    <testcase name="testCardType" classname="edu.towson.cis.cosc442.project1.monopoly.CardsTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.RailRoadCellTest" time="0.001">
+    <testcase name="testRent" classname="edu.towson.cis.cosc442.project1.monopoly.RailRoadCellTest" time="0.001"/>
+    <testcase name="testPlayerAction" classname="edu.towson.cis.cosc442.project1.monopoly.RailRoadCellTest" time="0.0"/>
+    <testcase name="testPurchaseRailroad" classname="edu.towson.cis.cosc442.project1.monopoly.RailRoadCellTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.GameboardTest" time="0.002">
+    <testcase name="testAddCell" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardTest" time="0.001"/>
+    <testcase name="testPropertyNumberForColor" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardTest" time="0.0"/>
+    <testcase name="testQueryCell" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardTest" time="0.0"/>
+    <testcase name="testQueryCellIndex" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardTest" time="0.0"/>
+    <testcase name="testCellsForMonopoly" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.CellInfoFormatterTest" time="0.003">
+    <testcase name="testPropertyCellText" classname="edu.towson.cis.cosc442.project1.monopoly.CellInfoFormatterTest" time="0.003"/>
+    <testcase name="testGoCellTest" classname="edu.towson.cis.cosc442.project1.monopoly.CellInfoFormatterTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.004">
+    <testcase name="testButtonPurchasePropertyClicked" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.001"/>
+    <testcase name="testReset" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.0"/>
+    <testcase name="testInit" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.0"/>
+    <testcase name="testTurn" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.001"/>
+    <testcase name="testButtonGetOutOfJailClicked" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.0"/>
+    <testcase name="testTradeProcess" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.001"/>
+    <testcase name="testButtonTradeClicked" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.0"/>
+    <testcase name="testButtonRollDiceClicked" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.UtilityCellTest" time="0.001">
+    <testcase name="testPurchaseUtility" classname="edu.towson.cis.cosc442.project1.monopoly.UtilityCellTest" time="0.0"/>
+    <testcase name="testRent" classname="edu.towson.cis.cosc442.project1.monopoly.UtilityCellTest" time="0.0"/>
+    <testcase name="testPlayerAction" classname="edu.towson.cis.cosc442.project1.monopoly.UtilityCellTest" time="0.001"/>
+    <testcase name="testMonopoly" classname="edu.towson.cis.cosc442.project1.monopoly.UtilityCellTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.LoseMoneyCardTest" time="0.0">
+    <testcase name="testLoseMoneyCardUI" classname="edu.towson.cis.cosc442.project1.monopoly.LoseMoneyCardTest" time="0.0"/>
+    <testcase name="testLoseMoneyCardAction" classname="edu.towson.cis.cosc442.project1.monopoly.LoseMoneyCardTest" time="0.0"/>
+  </testsuite>
+</testrun>
