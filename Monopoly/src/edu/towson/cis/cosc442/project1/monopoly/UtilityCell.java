@@ -22,7 +22,7 @@ public class UtilityCell extends Cell {
 		return 0;
 	}
 
-	public boolean playAction(String msg) {
+	public void playAction() {
 		Player currentPlayer = null;
 		if(!isAvailable()) {
 			currentPlayer = GameMaster.instance().getCurrentPlayer();

@@ -28,10 +28,15 @@ public class CellInfoFormatterTest extends TestCase {
         cell.setName(propertyName);
         cell.setPrice(propertyValue);
         cell.setColorGroup(propertyColor);
-        Player p = new Player();
-        p.setName(ownerName);
+        Player p = setPlayerName(ownerName);
         cell.setTheOwner(p);
         cell.setNumHouses(numHouses);
         assertEquals(propertyLabel, InfoFormatter.cellInfo(cell));
     }
+
+	private Player setPlayerName(String ownerName) {
+		Player p = new Player();
+        p.setName(ownerName);
+		return p;
+	}
 }
