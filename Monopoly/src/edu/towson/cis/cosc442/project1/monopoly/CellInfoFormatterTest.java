@@ -4,14 +4,24 @@ import edu.towson.cis.cosc442.project1.monopoly.gui.GoCellInfoFormatter;
 import edu.towson.cis.cosc442.project1.monopoly.gui.InfoFormatter;
 import junit.framework.TestCase;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class CellInfoFormatterTest.
+ */
 public class CellInfoFormatterTest extends TestCase {
     
+    /**
+     * Test go cell test.
+     */
     public void testGoCellTest() {
         GoCell cell = new GoCell();
         String goLabel = GoCellInfoFormatter.GO_CELL_LABEL;
         assertEquals(goLabel, InfoFormatter.cellInfo(cell));
     }
     
+    /**
+     * Test property cell text.
+     */
     public void testPropertyCellText() {
         String propertyName = "Blue 1";
         String propertyColor = "blue";
@@ -34,6 +44,12 @@ public class CellInfoFormatterTest extends TestCase {
         assertEquals(propertyLabel, InfoFormatter.cellInfo(cell));
     }
 
+	/**
+	 * Sets the player name.
+	 *
+	 * @param ownerName the owner name
+	 * @return the player
+	 */
 	private Player setPlayerName(String ownerName) {
 		Player p = new Player();
         p.setName(ownerName);
